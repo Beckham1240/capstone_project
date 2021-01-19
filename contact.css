@@ -1,0 +1,9 @@
+.card-body{
+    background-color: white;
+    width: 90%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+a#contact{
+    color: white;
+}

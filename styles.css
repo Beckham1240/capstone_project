@@ -1,0 +1,70 @@
+/*General & Misc Styles*/
+html{
+    height: auto;
+}
+body{
+    width: 100%;
+}
+header{
+    height: auto;
+    width: 100%;
+    padding-left: 1%;
+}
+#top{
+    background-color:  #109e92;
+    color: white;
+}
+footer{
+    height:auto;
+    background-color: #33364d;
+    color: #109e92;
+    text-align: center;
+}
+.row{
+    background-color: rgb(155, 150, 150);
+    padding-bottom: 4%;
+}
+
+/*Nav Styles*/
+nav{
+    padding-left: 0.6%;
+    background-color: #33364d;
+}
+
+nav a{
+    color: #109e92;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+nav a:hover{
+    color: white;
+}
+
+/*Column Styles*/
+.col-1-5{
+    width: 20%;
+}
+.col-4-5{
+    width: 80%;
+}
+
+/*Products Nav Bar Styles*/
+.list-group{
+    width: 70%;
+    margin-top: 10%;
+    border-radius: 0px;
+    font-weight: bold;
+}
+.list-group a{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.1em;
+    background-color:#33364d;
+    color: #109e92;
+}
+.list-group a:hover{
+    background-color: #3d4163;
+    color: #11bdae;
+}
+
+

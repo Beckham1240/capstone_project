@@ -1,0 +1,13 @@
+#gridProducts{
+    width: 85%;
+}
+ul.nav{
+    padding-left: 22%;
+    padding-top: 7%;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+a#product{
+    color:#33364d;
+    text-decoration: none;
+}
