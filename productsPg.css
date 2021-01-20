@@ -7,7 +7,12 @@ ul.nav{
     font-size: 2.2em;
     font-weight: bold;
 }
-a#product{
-    color:#33364d;
-    text-decoration: none;
+.card{
+    background-color: #33364d;
+    color: #109e92;
+}
+#categories{
+    width:80%;
+    padding-left: 5%;
+    padding-top: 2.5%;
 }

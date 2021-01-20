@@ -1,12 +1,14 @@
-.carousel-inner{
-    margin-top: 3%;
-    width:80%;
-    margin-left: 4%;
-    margin-right: 16%;
+video{
+    padding-left: 8%;
+    padding-top: 4%;
 }
-.carousel-item{
-    width: 100%;
+.card{
+    background-color: #33364d;
+    color: #109e92;
+    width: 50%;
+    margin-left: 9%;
 }
-.carousel-control-next{
-    padding-right: 30%;
+
+h5,p{
+    text-align: center;
 }

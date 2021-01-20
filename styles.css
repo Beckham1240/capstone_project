@@ -12,7 +12,7 @@ header{
 }
 #top{
     background-color:  #109e92;
-    color: white;
+    color: rgb(243, 243, 243);
 }
 footer{
     height:auto;
@@ -21,7 +21,7 @@ footer{
     text-align: center;
 }
 .row{
-    background-color: rgb(155, 150, 150);
+    background-color: rgb(243, 243, 243);
     padding-bottom: 4%;
 }
 
@@ -38,6 +38,10 @@ nav a{
 }
 nav a:hover{
     color: white;
+}
+/*Dropdown tab Styles*/
+ul label, ul input, li button{
+    margin-left: 4%;
 }
 
 /*Column Styles*/

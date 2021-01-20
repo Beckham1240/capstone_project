@@ -29,8 +29,27 @@
                   <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Account</a>
+                  <!--Dropdown Tab for Account to sign in-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Account
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control" id="inputEmail3">
+                        </div>
+                      </li>
+                      <li>
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                          <input type="password" class="form-control" id="inputPassword3">
+                        </div>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><button type="submit" class="btn btn-primary">Sign in</button></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Cart</a>
@@ -57,31 +76,24 @@
                 <a href="education.html" class="list-group-item list-group-item-action">Robotic Education</a>
                 <a href="toys.html" class="list-group-item list-group-item-action">Toys</a>
             </div>
+            <br/>
+            <br/>
+            <div class="col">
+              <div class="card">
+                <a href="kits.html"><img src="Images/robot_kit.jpg" width="273px" height="240px"class="card-img-top" alt="Kits pic"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Weekly Product</h5>
+                  <p class="card-text">I50 Robot Kit: $100</p>
+                </div>
+              </div>
+            </div>
         </div>
 
         <!--Carousel of different products, ads, sales-->
         <div class="col-4-5">
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="Images/carousel_1.jpg" height="600px" width="500px" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="5000">
-                    <img src="Images/carousel_2.jpg" height="600px" width="500px" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="5000">
-                    <img src="Images/carousel_3.jpg" height="600px" width="500px" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </a>
-              </div>
+            <video width="1200px" height="650px" playsinline autoplay muted loop>
+              <source src="index_vid.mp4" type="video/mp4"/>
+            </video>
         </div>
     </div>
     
